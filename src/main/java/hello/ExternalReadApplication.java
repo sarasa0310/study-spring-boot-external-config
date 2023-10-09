@@ -8,9 +8,7 @@ import org.springframework.context.annotation.Import;
 
 //@Import(MyDataSourceEnvConfig.class)
 //@Import(MyDataSourceValueConfig.class)
-//@Import(MyDataSourceConfigV1.class)
-//@Import(MyDataSourceConfigV2.class)
-//@Import(MyDataSourceConfigV3.class)
+//@Import(MyDataSourceConfig.class)
 @Import(MyDataSourceRecordConfig.class)
 @ConfigurationPropertiesScan // @ConfigurationProperties 빈 자동 등록
 @SpringBootApplication(scanBasePackages = {"hello.datasource", "hello.pay"})
